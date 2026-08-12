@@ -34,6 +34,7 @@ export interface Profile {
   phone: string | null;
   avatar_url: string | null;
   rejection_reason: string | null;
+  must_change_password: boolean | null;
   created_at: string;
   updated_at: string;
 }
